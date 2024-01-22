@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": "http://localhost:5000/clone-72220/us-central1/api",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }
+}

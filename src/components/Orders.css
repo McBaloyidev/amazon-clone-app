@@ -1,0 +1,37 @@
+.orders {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  .orders h1 {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .order {
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .order h2 {
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .order p {
+    margin-bottom: 10px;
+  }
+  
+  .order_items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  
+  
